@@ -16,6 +16,7 @@
 @property (nonatomic, assign) BOOL hasDatePicker;
 @property (nonatomic, assign) NSUInteger maxCharacters;
 
+- (void)dateChanged:(id)sender;
 - (void)setAndSelectText:(NSString*)text;
 - (void)setAndSelectDate:(NSDate*)date;
 - (NSDate*)getDate;
